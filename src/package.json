@@ -1,0 +1,22 @@
+{
+  "name": "data-table",
+  "version": "1.1.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fixedTable",
+    "vue",
+    "less"
+  ],
+  "peerDependencies": {
+    "normalize-wheel": "^1.0.1",
+    "veui": "^1.0.0-alpha.33",
+    "veui-theme-blue": "^0.14.1-dev",
+    "perfect-scrollbar": "^1.5.2"
+  },
+  "author": "eyunhua",
+  "license": "ISC"
+}
