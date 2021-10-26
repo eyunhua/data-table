@@ -11,6 +11,7 @@ module.exports = {
     },
     outputDir: 'docs',
     publicPath: process.env.NODE_ENV === 'production' ? '/data-table/' : '/',
+    outputDir: 'docs',
     lintOnSave: 'warning',
     css: {
         loaderOptions: {
