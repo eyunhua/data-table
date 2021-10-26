@@ -1170,10 +1170,12 @@ export default {
 .data-table.data-table-demo {
     width: 700px;
     height: 400px;
+    margin: 0 auto;
 }
 .data-table.data-table-demo2 {
     width: 400px;
     height: 300px;
+    margin: 0 auto;
 }
 .veui-form {
     .veui-fieldset, .veui-field {
