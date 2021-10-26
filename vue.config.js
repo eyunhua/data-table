@@ -9,6 +9,7 @@ module.exports = {
             entry: './demo/main.js',
         }
     },
+    outputDir: 'docs',
     lintOnSave: 'warning',
     css: {
         loaderOptions: {
