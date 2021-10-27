@@ -9,6 +9,7 @@ module.exports = {
             entry: './demo/main.js',
         }
     },
+    publicPath: process.env.NODE_ENV === 'production' ? '/data-table/' : '/',
     lintOnSave: 'warning',
     css: {
         loaderOptions: {
