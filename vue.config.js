@@ -10,6 +10,7 @@ module.exports = {
         }
     },
     outputDir: 'docs',
+    publicPath: process.env.NODE_ENV === 'production' ? '/data-table/' : '/',
     lintOnSave: 'warning',
     css: {
         loaderOptions: {
